@@ -30,3 +30,36 @@ Facilidade de Gerenciamento:
 A Azure oferece ferramentas de gerenciamento para monitorar e controlar a infraestrutura da nuvem, simplificando a gestão dos recursos. 
 Inovação:
 Os serviços de IA, IoT e outras tecnologias do Azure podem ajudar as empresas a inovarem e a criarem novas soluções. 
+
+✅ Passo a passo para configurar uma instância de banco de dados no Azure (via Portal):
+Acesse o portal:
+Vá para https://portal.azure.com e faça login com sua conta.
+
+Crie um recurso:
+No menu lateral esquerdo, clique em "Criar um recurso" > "Banco de dados" > "Banco de Dados SQL".
+
+Configuração básica:
+
+Nome do banco de dados: escolha um nome.
+
+Assinatura: selecione sua assinatura.
+
+Grupo de recursos: crie um novo ou selecione um existente.
+
+Servidor: crie um novo servidor lógico (define nome, login e senha de administrador, local do datacenter).
+
+Modo de compra: escolha entre "Uso geral", "Crítico para negócios" ou "Hiperescala", e defina desempenho (vCores ou DTUs).
+
+Configurações adicionais (opcional):
+
+Replique dados entre regiões (alta disponibilidade).
+
+Configure regras de firewall (IP de acesso).
+
+Defina backup e retenção.
+
+Revisar e criar:
+Clique em "Revisar + criar", aguarde a validação e clique em "Criar".
+
+📌 Após a criação:
+Você pode acessar o banco via ferramentas como Azure Data Studio, SQL Server Management Studio (SSMS) ou aplicativos próprios, usando a string de conexão fornecida no portal.
